@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Document</title>
+    <style>
+        .body,h1
+        {
+            margin: 0px;
+        }
+        .content
+        {
+            width: 50%;
+            border: 4px solid gray;
+            box-sizing: border-box;
+            float: left;
+            margin: 0px 15%;
+        }
+        .header
+        {
+            width: 100%;
+            padding: 10px 0px;
+            box-sizing: border-box;
+            background-color: rgb(20, 173, 173);
+            float: left;
+        }
+        .para_heading
+        {
+            width: 40%;
+            float: left;
+            text-align: center;
+            color: white;
+        }
+        .button
+        {
+            width: 10%;
+            background-color: rgb(4, 93, 93);
+            float: right;
+        }
+        .btn
+        {
+            width: 100%;
+            padding: 10px 0px;
+            background: rgb(6, 136, 136);
+            color: white;
+            float: left;
+        }
+        .left
+        {
+            width: 58.8%;
+            /*background-color: aqua;*/
+            box-sizing: border-box;
+            float: left;
+            text-align: center;
+        }
+        label
+        {
+            width: 34%;
+            padding: 5px 0px ;
+            display: inline-block;
+            /*background-color: azure;*/
+            margin: 4px;
+            text-align: right;
+        }
+        .other1, .other2
+        {
+            width: 25%;
+            display: inline-block;
+            text-align: right;
+        }
+        select
+        {
+            display: inline-block;
+            padding: 2px 13px;
+        }
+        .left_top
+        {
+            width: 100%;
+            padding: 10px 0px;
+            box-sizing: border-box;
+            float: left;
+            border-right: 2px dotted grey;
+        }
+        .leftbottom
+        {
+            width: 100%;
+            padding: 10px 5px;
+            float: left;
+            border-top: 2px dotted grey;
+        }
+        .leftbottom_contain
+        {
+            width: 50%;
+            float: left;
+            margin-left: 25%;
+            font-size: 12px;
+        }
+
+        input[type="submit"]
+        {
+            width: 100%;
+            box-sizing: border-box;
+            padding:  10px 5px;
+            background-color: rgb(11, 177, 177);
+            border: 1px solid rgb(11, 177, 177);
+            color: white;
+            cursor: pointer;
+            margin: 3px;
+        }
+        .right
+        {
+            width: 40%;
+            /*background-color: rgba(223, 96, 96, 0.866);*/
+            box-sizing: border-box;
+            float: left;
+        }
+        .right_top
+        {
+            width: 100%;
+            padding: 3px 5px;
+            float: left;
+            box-sizing: content-box;
+            background-color: rgb(215, 206, 206)
+        }
+        .icon
+        {
+            width: 20%;
+            padding: 10px;
+            text-align: center;
+            float: left;
+            background-color: green;
+            color: white;
+            box-sizing: border-box;
+        }
+        .paragraph
+        {
+            width: 80%;
+            padding: 2px 10px;
+            float: right;
+            box-sizing: border-box;
+            color: green;
+        }
+        .para1
+        {
+            color: black;
+            box-sizing: border-box;
+            font-size: 14px;
+            float: right;
+        }
+        .icon2
+        {
+            width: 21%;
+            padding:  10px;
+            text-align: center;
+            float:left;
+            background-color: green;
+            color: white;
+            box-sizing: border-box ;
+        }
+        .paragraph2
+        {
+            width: 70%;
+            padding: 2px 10px;
+            float: left;
+            box-sizing: border-box;
+            color: green;
+        }
+        .para2
+        {
+            color: black;
+            box-sizing: border-box;
+            font-size: 14px;
+            float: right;
+        }
+        .icon3
+        {
+            width: 22%;
+            padding: 10px;
+            text-align: center;
+            float:left;
+            background-color: green;
+            color: white;
+            box-sizing: border-box ;
+        }
+        .paragraph3
+        {
+            width: 60%;
+            padding: 2px 10px;
+            float: left;
+            box-sizing: border-box;
+            color: green;
+        }
+        .para3
+        {
+            color: black;
+            box-sizing: border-box;
+            font-size: 13px;
+            float: right;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="header">
+            <div class="para_heading"><h1>Get Started For Free</h1></div>
+            <div class="button">
+                <input type="button" value="CLOSE" class="btn">
+            </div>
+        </div>
+        <div class="left">
+            <div class="left_top">
+                <form action="#">
+                    <label><b>Your Name:</b></label>
+                    <input type="text" id="yname">
+                    <br>
+                    <label><b>Company name:</b></label>
+                    <input type="text" id="companyname">
+                    <br>
+                    <label class="other1"><b>Company size:</b></label>
+                    <select>
+                        <option value="Choose one..">Choose one..</option>
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                    </select>
+                    <br>
+                    <label class="other2"><b>Business model:</b></label>
+                    <select>
+                        <option value="Choose one..">Choose one..</option>
+                        <option>Retailer</option>
+                        <option>Manufacturer</option>
+                        <option>Affiliate</option>
+                    </select>
+                    <br>
+                    <label><b>Company website:</b></label>
+                    <input type="text" id="Companywebsite">
+                    <br>
+                    <label><b>Phone Number:</b></label>
+                    <input type="number" id="phonenum">
+                    <br>
+                    <label><b>Email address:</b></label>
+                    <input type="email" id="email">
+                    <br>
+                    <label><b>Password:</b></label>
+                    <input type="password" id="password">
+                    <br>
+                    <br>
+                    <div class="leftbottom">
+                        <div class="leftbottom_contain">
+                            <input type="submit" value="STAR YOUR FREE TRIAL NOW"><br>
+                            By clicking this button,you agree with our<br> <a href="">Term</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right_top">
+                <div class="icon">
+                    <i class="fa fa-users"></i>
+                </div>
+                <div class="paragraph">
+                    <b>We help you get to know<br>your people.</b>
+                    <p class="para1">The lifeblood of your business is the people that interact with you and<br>
+                        even pay you..your users..your customers.
+                    </p>
+                </div>
+                <div class="icon2">
+                    <i class="fa fa-check"></i>
+                </div>
+                <div class="paragraph2">
+                    <b>A complex business service,<br>built & designed simply.</b>
+                    <p class="para2">You are trying to acquire,activate, retain
+                    and delight your customers every single minute
+                    of every day.</p>
+                </div>
+                <div class="icon3">
+                    <i class="fa fa-user-alt"></i>
+                </div>
+                <div class="paragraph3">
+                    <b>People not pageviews,<br>goodbye vanity metrics.</b>
+                    <p class="para3">No longer will you just view a percentage of
+                        people coming and going,we'll tell you who's coming,viewing
+                        what and why.</p>
+                </div> 
+            </div>
+        </div>                                   
+
+    </div>
+</body>
+</html>
